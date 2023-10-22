@@ -1,4 +1,43 @@
-img {
+body{
+    background-color: rgb(64, 61, 61);
+}
+h1 {
+    text-align: center
+}
+h1 {
+    border-block-style: solid;
+    border-width: 100px;
+    border-color: rgb(86, 136, 86);
+    border-radius: 10px;
+}
+h1 {
+    color: rgb(3, 3, 3); 
+    font-weight: 700;
+    font-size: 50px;
+    font-family:sans-serif
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+}
+nav {
+    margin: 0;
+    padding: 0;
+    background: rgb(86, 136, 86);
+    height: 80px; 
+    width: 500px;
+    display: inline-block;
+    }
+nav{
+    font-size: 30px;
+    word-spacing: 20px;
+}
+.button {
     float: right;
-    padding: 200px
+    width: 400px;
+}
+.photo {
+    
 }
