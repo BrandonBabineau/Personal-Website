@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(111, 136, 111);
+  }
+  h3{
+    text-indent: 50px;
+  }
+ul li { 
+    padding: 30px 5px; 
+    text-size-adjust;
+    font-size: large;
+    border-style: groove;
+}
+h1 {
+    font-family:cursive
+}
+h3 {
+    color: rgb(8, 38, 8)
+}
+.data{
+    float: left;
+    padding: 5px;
+    border-radius: 50%;
+}
+.column {
+    float: left;
+    width: %;
+    padding: 40px;
+  }
