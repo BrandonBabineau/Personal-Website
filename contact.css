@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+form {
+    color:rgb(235, 232, 232); ;
+}
+.flex-container{
+    color:white;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: rgb(206, 211, 71);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .flex-container{
+    text-align: center;
+  }
+  .circle {
+    height: 250px;
+    width: 250px;
+    background-color: #0732c2;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 830px;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .messagebox{
+    height: 200px;
+    font-size:14pt;   
+}
