@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css"></link>
+    <link rel="stylesheet"  href="contact.css"></link>
     <title>Contact</title>
     <nav class="Top Nav Bar">
         <a href="./index.html">Home</a>
@@ -13,21 +13,40 @@
 </nav>
 </head>
 <body>
-    <div class="flex-container">
+    <style>
+    body {
+        background-image: url('https://images.unsplash.com/photo-1682686581427-7c80ab60e3f3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <div class="box">
     <form action="formsubmit.html" method="get">
-       
+        <br>
+        <br>
+        <br>
         <label for="Name">Full Name:</label><br>
         <input type="text" id="fullname" name="fullname" value=""><br>
         <br>
         <label for="email">Email:</label><br>
         <input type="Email" id="Email" value=""><br>
         <br>
-        <label for="messagebox">Message 
-        </label><br>
-        <input type="text" id="message" value=""><br>
-        <input type="submit" value="Submit">
-    </form>
-    </div>
+        <label for="messagebox">Feedback:</label><br>
+        <textarea name =message rows="5" cols="20"></textarea>
+        <br>
+        <br>
+        <input type="submit"> 
+        </form>
+        </div>
+<!--added linkedin button link to profile-->
     <span class="circle"></span>
-</body>
+    <div class="link">
+        <a href="https://www.linkedin.com/in/brandon-babineau-1511b3215">  
+        <img src=https://cdn-icons-png.flaticon.com/512/174/174857.png style="width:80px;" />
+        </a>  </div>
+<!--added email link to profile-->
+        <div class="gmail">
+            <a href="mailto:Babineau1991@gmail.com"><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gmail_Icon_%282013-2020%29.svg/2560px-Gmail_Icon_%282013-2020%29.svg.png style="width:80px;" /></a> 
+        </div>
+        </body>
 </html>
