@@ -1,22 +1,27 @@
 @media (max-width:1680px){}
 @media (min-width: 480px){}
-
+.TopNavBar {
+  background-color: #212020;
+  overflow: hidden; 
+}
+.TopNavBar li {
+  float: left;
+}
+.TopNavBar a {
+  display: block;
+  color: rgb(206, 201, 201); 
+  text-align: center;
+  padding: 15px; 
+}
+.TopNavBar a:hover {
+  background-color: #555; 
+}
 body{
     background-color: black;
 }
 form {
     color:rgb(255, 255, 255); ;
 }
-a:hover {
-    color: rgb(219, 16, 16);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:visited {
-    color: rgb(206, 211, 71);
-    background-color: transparent;
-    text-decoration: none;
-  }
   input[type="submit"]:hover {
     background-color: #d05503;
     color: black;
@@ -24,18 +29,6 @@ a:hover {
   .box{
     text-align: center;
     font-size: 20px;
-  }
-  .circle {
-    height:370px;
-    width: 350px;
-    background-color: #000000;
-    border-radius: 100%;
-    display: inline-block;
-    position: absolute;
-    left: 790px;
-    top: 80px;
-    z-index: -1;
-    opacity: 0.5;
   }
    textarea{
     width: 250px;
@@ -45,12 +38,42 @@ a:hover {
    .link {
     position: static;
     position: absolute;
-    left: 600px;
-    top: 350px;
+    left: 275px;
+    top: 550px;
    }
    .gmail {
     position: static;
     position: absolute;
-    left: 1200px;
-    top: 350px;
+    left: 1570px;
+    top: 550px;
    }
+   .grid-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+    padding: 9px;
+    place-items: center;
+  }
+  .grid-item {
+    background-color: rgba(128, 122, 122, 0.8);
+    border: 1px solid rgba(21, 30, 157, 0.8);
+    padding: 100px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .grid-item3 {
+    background-color: rgba(128, 122, 122, 0.8);
+    border: 1px solid rgba(159, 161, 187, 0.8);
+    padding: 90px;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+  }
+  .Jsimage {
+    position: static;
+    position: absolute;
+    left: 860px;
+    top: 290px;
+  }

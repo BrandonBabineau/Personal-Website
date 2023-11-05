@@ -1,3 +1,19 @@
+.TopNavBar {
+  background-color: #212020;
+  overflow: hidden; 
+}
+.TopNavBar li {
+  float: left;
+}
+.TopNavBar a {
+  display: block;
+  color: rgb(206, 201, 201); 
+  text-align: center;
+  padding: 15px; 
+}
+.TopNavBar a:hover {
+  background-color: #555; 
+}
 h1 {
   text-indent: 200px;
   font-family: cursive;
